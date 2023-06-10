@@ -1,11 +1,12 @@
-import React from 'react';
-import TodoList from './components/TodoList';
-import "./App.css"
+import React from "react";
+import TodoList from "./components/TodoList";
+import "./App.css";
+import { Box } from "@mui/material";
 const App = () => {
   return (
-    <div>
-
-    </div>
+    <Box>
+      <TodoList />
+    </Box>
   );
 };
 
