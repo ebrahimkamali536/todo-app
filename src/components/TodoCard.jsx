@@ -57,7 +57,7 @@ const TodoCard = ({ task, deleteTodo, updateTaskList, index }) => {
           <Button size="small" onClick={handleClose}>
             Edit
           </Button>
-          <Button size="small" onClick={() => deleteTodo(task.id)}>
+          <Button size="small" onClick={() => deleteTodo(task.idt )}>
             Delete
           </Button>
         </CardActions>
